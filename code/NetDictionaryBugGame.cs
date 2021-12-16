@@ -20,7 +20,7 @@ namespace NetDictionaryBug
 				BugHere.Add( BugHere.Count, new UnusableClass() );
 		}
 		
-		internal class UnusableClass
+		internal class UnusableClass : BaseNetworkable
 		{
 			// Any class no matter what it has inside of it will not work.
 		}
